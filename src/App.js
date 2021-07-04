@@ -1,5 +1,5 @@
 
-import Header from './partials/header'
+import Header from './partials/header/header'
 
 import './App.scss';
 

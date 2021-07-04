@@ -1,0 +1,34 @@
+.header{
+
+    &__contant{
+        flex:1 1 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &__title{
+        font-family: $fontFamily-1;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: 5.70937px;
+        @extend .text_title;
+
+        @media screen and (max-width: $sm){
+
+            font-size: 38px;
+            line-height: 48px;
+            
+        }
+       
+
+    }
+
+    &__subtitle{
+        font-family: $fontFamily-3;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

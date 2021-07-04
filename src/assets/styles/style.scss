@@ -1,29 +1,13 @@
+// @import "./assets/styles/style";
 
-/* 0-Base*/
+/*Base*/
 @import "base/base";
 @import "base/mixsins";
 @import "base/variables";
 
-/* 1-Fonts*/
-@import "fonts/_fonts";
 
-/* 2-Partials*/
-@import "pages/partials/_header";
+// Default style
 
-/* 3-Pages*/
-// @import "pages/home/_home";
-
-
-// @import "pages/partials/_footer";
-
-
-
-/* 4-Bootstrap */
-//  @import 'vendors/_bootstrap-customized';
-
-  /*owl-carousel*/
-  // @import 'vendors/owl.carousel.min';
-  // @import 'vendors/owl.theme.default.min';
-
-// flexbin
-  // @import 'vendors/flexbin';
+.text_title{
+  text-transform: uppercase;
+}

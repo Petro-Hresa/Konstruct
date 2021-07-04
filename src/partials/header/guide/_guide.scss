@@ -1,0 +1,14 @@
+
+.header{
+
+    &__guide{
+       margin: 40px 1.25rem 2rem;
+       font-family: $fontFamily-3;
+       letter-spacing: 3.7px;
+       line-height: 15px;
+       font-size:11px;
+      @extend .text_title;
+
+    }
+
+}

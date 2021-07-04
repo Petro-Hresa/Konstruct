@@ -1,0 +1,24 @@
+@import "./content/_content";
+@import "./logo/_logo";
+@import "./guide/_guide";
+
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    background-color:$Background-1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color:$colorText-1;
+    text-align: center;
+
+
+    @media screen and (max-width: $lg){
+        // background-size: 100% 100%, cover;
+    }
+}
